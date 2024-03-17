@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rViewCandidate"
         android:layout_width="409dp"
         android:layout_height="729dp">
 

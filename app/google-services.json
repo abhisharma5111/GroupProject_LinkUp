@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "478421097123",
-    "firebase_url": "https://linkup-e895a-default-rtdb.firebaseio.com",
-    "project_id": "linkup-e895a",
-    "storage_bucket": "linkup-e895a.appspot.com"
+    "project_number": "462824609231",
+    "firebase_url": "https://linkup-b1a85-default-rtdb.firebaseio.com",
+    "project_id": "linkup-b1a85",
+    "storage_bucket": "linkup-b1a85.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:478421097123:android:a5cdb0cc6949cb1851fd16",
+        "mobilesdk_app_id": "1:462824609231:android:5a84a65d1be89bb1a8aeba",
         "android_client_info": {
           "package_name": "com.example.groupproject_linkup"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDv-i9X9H33Y-oT9HtjBPPgsOaKA9nByUM"
+          "current_key": "AIzaSyAQTG1gEggGtiX-cIl7OdkXx1VH__dw13s"
         }
       ],
       "services": {
