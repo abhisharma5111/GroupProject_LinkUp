@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">
 
     <ImageView
-        android:id="@+id/profilePhoto"
+        android:id="@+id/largerImage"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/detailTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Detail Title"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/largerImage"
+        android:paddingTop="16dp"/>
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/detailDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/description"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/experience"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Detail Description"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:layout_below="@id/detailTitle"
+        android:paddingTop="8dp"/>
 
     <Button
         android:id="@+id/connectButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="347dp"
+        android:background="@drawable/button_border"
         android:text="Connect"
-        android:onClick="onConnectButtonClick" />
+        android:textColor="#FFFFFF" />
 
-</LinearLayout>
+</RelativeLayout>
