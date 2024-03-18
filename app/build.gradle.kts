@@ -40,6 +40,7 @@ android {
 dependencies {
 
     implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.activity:activity:1.8.0")
     kapt("com.github.bumptech.glide:compiler:4.16.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
